@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demere Privacy Policy</title>
+<style>
+  :root { --bg:#fff; --fg:#1d1d1f; --muted:#6e6e73; --rule:#d2d2d7; --link:#0b5fd1; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#111; --fg:#f2f2f4; --muted:#a1a1a6; --rule:#3a3a3c; --link:#6aa8ff; } }
+  body { background:var(--bg); color:var(--fg); font:17px/1.55 -apple-system, system-ui, "Segoe UI", Roboto, sans-serif; margin:0; }
+  main { max-width:42rem; margin:0 auto; padding:2.5rem 16px 4rem; }
+  h1 { font-size:2rem; margin:0 0 .25rem; }
+  h2 { font-size:1.2rem; margin:2rem 0 .5rem; padding-top:1rem; border-top:1px solid var(--rule); }
+  .meta { color:var(--muted); margin:0 0 1.5rem; }
+  a { color:var(--link); }
+  li { margin:.3rem 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>Demere Privacy Policy</h1>
+<p class="meta">Applies to Demere for iPhone and Demere for Android. Last updated: 30 September 2026.</p>
+
+<p><strong>In short:</strong> Demere has no servers and no accounts. It collects nothing about you, shows no ads, and has no analytics or crash reporting. It talks only to the Immich server you point it at.</p>
+
+<h2>Who we are</h2>
+<p>Demere is made by Hannah Riedman, an individual developer ("I"). Contact: <a href="mailto:SUPPORT_EMAIL_PLACEHOLDER">SUPPORT_EMAIL_PLACEHOLDER</a>.</p>
+
+<h2>What Demere does</h2>
+<p>Demere helps you go through your photo library one calendar day at a time, showing photos taken on that day in past years from your own <a href="https://immich.app">Immich</a> server, so you can keep or remove them. It also finds matching copies on your phone so you can remove those too.</p>
+
+<h2>Information Demere handles, and where it stays</h2>
+<ul>
+  <li><strong>Immich server address and API key.</strong> You enter these. They are stored only on your device (the iOS Keychain; on Android, encrypted with a hardware-backed Android Keystore key). They are sent only to the server address you entered, over HTTPS, and nowhere else. They are excluded from device backups.</li>
+  <li><strong>Photos and videos on your phone.</strong> With your permission, Demere reads your library to match items against your Immich server. Files are read on the device to compute checksums. They are never uploaded by Demere.</li>
+  <li><strong>Photos and videos from your Immich server.</strong> Thumbnails and previews are fetched from your server to show on screen. Demere does not send them to anyone else.</li>
+  <li><strong>Review history and statistics</strong> (which days you finished, what you kept or removed, streaks). Stored on your device only. On Android this may be included in Google's automatic app backup to your own Google account, and on iPhone in your own device backup, under your backup settings; Demere itself does not receive it.</li>
+  <li><strong>Notifications and widget.</strong> If you turn on a daily reminder or add the widget, they are generated on your device from the data above. No notification service of mine is involved.</li>
+</ul>
+
+<h2>What Demere does not do</h2>
+<ul>
+  <li>No collection of personal data by me, and no sale or sharing of data.</li>
+  <li>No analytics, advertising, tracking, or crash-reporting services.</li>
+  <li>No backend. I cannot see your photos, your server, your key, or your history.</li>
+</ul>
+
+<h2>Removing photos</h2>
+<p>When you choose to remove a photo, Demere asks your Immich server to move it to Immich's trash and, if you confirm, moves the matching phone copy to the system trash (Recently Deleted on iPhone; the system trash on Android). Demere does not permanently delete anything; both trashes keep items for a limited time, which you control.</p>
+
+<h2>Tips</h2>
+<p>Demere has optional tips. They are processed by Apple (App Store) or Google (Google Play) under their own privacy policies. I receive no payment details, only what the store reports in aggregate.</p>
+
+<h2>Third parties</h2>
+<p>Your Immich server is run by you or someone you chose; its handling of your data is governed by whoever operates it, not by this policy. Apple and Google handle app installation, tips and, if enabled, backups under their own policies.</p>
+
+<h2>Retention and deletion</h2>
+<p>Because nothing leaves your device except requests to your own server, there is nothing for me to delete. Uninstalling Demere removes its data from your device. Your Immich server's data stays on that server. You can revoke Demere's access at any time by deleting its API key in Immich.</p>
+
+<h2>Children</h2>
+<p>Demere is not directed at children under 13 and collects no data from anyone.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be posted here with a new date. If Demere ever adds analytics, crash reporting, or any service that collects data, this policy and the store data-safety answers will change before that release ships.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:SUPPORT_EMAIL_PLACEHOLDER">SUPPORT_EMAIL_PLACEHOLDER</a>.</p>
+</main>
+</body>
+</html>
