@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.widgetapps.flipside.debug",
+      "sha256_cert_fingerprints": [
+        "01:52:8C:24:40:51:70:F3:52:81:C5:CD:2B:F6:F3:71:E0:D7:7A:88:77:6D:FB:27:8A:24:0D:14:BE:B2:00:30"
+      ]
+    }
+  }
+]

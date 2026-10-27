@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Flipside Privacy Policy</title>
+<style>:root{--bg:#fff;--fg:#1d1d1f;--muted:#6e6e73;--rule:#d2d2d7;--link:#0b5fd1}@media(prefers-color-scheme:dark){:root{--bg:#111;--fg:#f2f2f4;--muted:#a1a1a6;--rule:#3a3a3c;--link:#6aa8ff}}
+body{background:var(--bg);color:var(--fg);font:17px/1.55 -apple-system,system-ui,"Segoe UI",Roboto,sans-serif;margin:0}main{max-width:42rem;margin:0 auto;padding:2.5rem 16px 4rem}h1{font-size:2rem;margin:0 0 .25rem}h2{font-size:1.2rem;margin:2rem 0 .5rem;padding-top:1rem;border-top:1px solid var(--rule)}.meta{color:var(--muted)}a{color:var(--link)}li{margin:.3rem 0}</style></head>
+<body><main>
+<h1>Flipside Privacy Policy</h1>
+<p class="meta">Applies to Flipside for Android. Last updated: 27 October 2026.</p>
+
+<p><strong>In short:</strong> Flipside has no servers and no accounts. It collects nothing about you, shows no ads, and has no analytics or crash reporting. It talks only to the Home Assistant server you point it at.</p>
+
+<h2>Who we are</h2>
+<p>Flipside is made by an individual developer, <a href="https://github.com/marieriedman">marieriedman</a> on GitHub ("I"). Contact: <a href="mailto:contact@widgyapps.xyz">contact@widgyapps.xyz</a>.</p>
+
+<h2>Use of AI in development</h2>
+<p>Flipside was developed with the help of AI coding assistants (Claude, by Anthropic), which were used to write and review the app's source code. The app itself contains no AI features and sends nothing to an AI service.</p>
+
+<h2>Information Flipside handles, and where it stays</h2>
+<ul>
+  <li><strong>Your Home Assistant addresses and sign-in.</strong> You sign in on your Home Assistant's own login page; Flipside never sees your password. It receives tokens from your Home Assistant, stores them only on your phone, encrypted with an Android Keystore key, and sends them only to the addresses you entered. They are excluded from device backups. Signing out revokes them on your server.</li>
+  <li><strong>Device states</strong> (for example "light on", a temperature). Read from your Home Assistant to draw the widgets and kept on your phone so widgets can redraw offline.</li>
+  <li><strong>Your layouts</strong> (which tiles, icons and colours). Stored on your phone. They may be included in Google's automatic app backup to your own Google account, under your backup settings; Flipside itself does not receive them.</li>
+  <li><strong>Diagnostics.</strong> A short event log stays on your phone. It leaves only if you copy it yourself; the copied report has addresses removed.</li>
+</ul>
+
+<h2>What Flipside does not do</h2>
+<ul>
+  <li>No collection of personal data by me, and no sale or sharing of data.</li>
+  <li>No analytics, advertising, tracking, or crash-reporting services.</li>
+  <li>No backend. I cannot see your home, your server or your tokens.</li>
+</ul>
+
+<h2>This website</h2>
+<p>When you sign in, your browser briefly loads a page on widgyapps.xyz that hands the one-time sign-in code to the app. The page sends nothing anywhere. The site is hosted by GitHub Pages, which may keep standard server logs under GitHub's own privacy policy.</p>
+
+<h2>Third parties</h2>
+<p>Your Home Assistant server is run by you or someone you chose; its handling of your data is governed by whoever operates it. Google (and Samsung, if you install from Galaxy Store) handle app installation and, if enabled, backups under their own policies.</p>
+
+<h2>Children</h2>
+<p>Flipside is not directed at children and collects no personal data from anyone.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be posted here with a new date.</p>
+</main></body></html>
